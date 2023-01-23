@@ -1,0 +1,91 @@
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
+}
+
+.container{
+    margin: 50px auto;
+    position: relative;
+}
+.areacomp {
+    width: 600px;
+    height: 250px;
+    background-color: lightcoral;
+    position: relative;
+    border-radius: 40px 40px 0 0;
+}
+.areaplayer {
+    width: 600px;
+    height: 250px;
+    background-color: lightblue;
+    position: relative;
+    border-radius: 0 0 40px 40px;
+}
+.areacomp, .areaplayer {
+    margin: 1px auto;
+}
+.info {
+    height: 60px;
+    width: 180px;
+    background-color: white;
+    border: 8px solid lime;
+    border-radius: 60px;
+    position: absolute;
+    display: inline;
+    top: 50%;
+    left: 50%;
+    margin-top: -33px;
+    z-index: 1;
+    margin-left: -90px;
+    text-align: center;
+    line-height: 60px;
+    color: lime;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+img.img-comp {
+    position: absolute;
+    left: 50%;
+    margin-left: -55px;
+    margin-top: 50px;
+}
+
+ul {
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.gajah , .semut, .orang {
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    transition: 0.2s;
+}
+
+.gajah:hover , .semut:hover , .orang:hover {
+    box-shadow: 0 0 10px 5px white;
+}
+
+.gajah:active , .semut:active , .orang:active {
+    top: 2px;
+}
